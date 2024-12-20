@@ -1,0 +1,62 @@
+#submitBtn{
+    background-color: rgba(91, 225, 24, 0.953);
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Heading{
+    color: #ffe7e7;
+}
+
+#inputNewTask{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    /* margin-top: 1rem; */
+    font-weight: 400;
+    max-width: 10rem;
+}
+
+body{
+    background-color: #212121;
+    margin: auto;
+}
+#newTask
+{
+    background-color: #1d1f1d;
+    text-align: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: 40vh auto;
+    padding: 1.5rem;
+}
+
+#taskLists{
+    list-style: none;
+    color: #f1efef;
+    text-align: left;
+    padding: 1rem;
+}
+
+#taskLists button{
+    background-color: rgba(225, 24, 24, 0.953);
+    padding: 0.4rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#taskLists li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202420;
+    padding: 1rem;
+}
+
+.highlight{
+    text-decoration-line: line-through;
+}
